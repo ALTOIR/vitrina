@@ -1,5 +1,5 @@
-@import 'url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic,cyrillic-ext)';
-@import 'bxslider.css';
+@import 'slick.css';
+@import 'slick-theme.css';
 @import 'animate.css';
 @import "reset.css";
 @import "variables";
@@ -7,3 +7,484 @@
 @import 'nib';
 @import 'sprite';
 @import 'mixins';
+@import 'media';
+
+body 
+  font-family Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+  background: grey
+.container-wrapper
+  width 1200px
+  margin 0 auto
+  background: white
+.menu-container
+  background: white
+  shadow()
+  height 49px
+.shadow 
+  shadow()
+.header
+  background grey
+  padding 15px 20px
+  &__logo
+    sprite($sprite-logo)
+  &__menu__lnik
+    color dark
+    margin-left 40px
+  &__search 
+    margin-right auto
+    margin-left 30px
+.form__input_547
+  width 547px
+input 
+textarea 
+  border none 
+  padding 10px 15px
+  color #777777
+  font-size 16px
+  border-radius 1px
+  width 100%
+  font-family Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+input 
+  height 40px
+.button_icon
+  background: transparent
+  sprite($sprite-icon1)
+  padding 0px
+  cursor pointer
+  vertical-align middle
+  margin-left 15px
+.menu-container
+  padding 15px 0
+  margin 0 0 20px 0
+.menu
+  &__item
+    text-align: center
+    flex-grow 1
+    flex-basis 0 
+    width-width 100%
+    &:first-child:before
+      sprite($sprite-icon7)
+      content ''
+      display inline-block
+      margin-right 10px
+  &__link
+    color dark
+    text-transform: uppercase
+.section-slider
+  margin 0 0 10px 0
+  &__top
+    border-bottom 1px solid grey
+  &__brend 
+    border 1px solid grey
+    margin 20px
+    img 
+      width 100%
+      height auto
+  &__slides
+    img 
+      display block
+  &__slider 
+    padding 20px
+    overflow hidden
+    img 
+      width 100%
+      height auto
+  &__bottom
+    border-bottom 1px solid grey
+    padding 17px 20px
+    text-align: center
+  &__title 
+    font-size 24px 
+    display block
+  &__title2 
+    color grey4
+    margin 8px 0 0 0
+    display block
+  &__likes 
+    span 
+      padding 15px 0
+      color grey5
+      width 50%
+      text-align: center
+      &:first-child
+        border-right 1px solid grey
+  &__icon1
+    &:before 
+      sprite($sprite-icon2)
+      content ''
+      display inline-block 
+      vertical-align: middle
+      margin-right 10px
+  &__icon2
+    &:before 
+      sprite($sprite-icon3)
+      content ''
+      display inline-block 
+      vertical-align: middle
+      margin-right 10px
+.col__290 
+  width 290px
+.section-geo
+  margin-bottom 10px
+  &__wrapper 
+    border-right 1px solid grey
+    margin 15px 0
+    padding 0 20px
+  &__top
+    padding 15px 20px
+  &__item 
+    width 35px
+    height @width 
+    border-radius(50%)
+    background: grey
+  &__geo
+    padding 20px 0 0 0
+  &__top
+    .js__tab
+      border-bottom 1px solid grey 
+      padding-bottom 7px
+      cursor pointer
+      color pink3
+      &:hover 
+        border-bottom 1px solid red
+        color red
+    .js__tab.active 
+      border-bottom 1px solid red
+      color red
+  &__all-a
+    border-bottom 1px solid red 
+    color red
+    padding-bottom 7px
+  &__bottom 
+    padding 0 20px
+    .js__cont
+      display none
+    .js__cont.active 
+      display block
+  &__adr-icon 
+    sprite($sprite-icon4)
+    margin-right 20px
+  &__adr-icon2 
+    sprite($sprite-icon5)
+    margin-right 20px
+  &__adr-icon3 
+    sprite($sprite-icon6)
+    margin-right 20px
+  &__adr-dat 
+    display block
+.section-rev
+  margin-bottom 20px
+  &__wrapper 
+    padding 20px 60px
+  &__link 
+    text-transform: uppercase
+  .button 
+    padding 0 30px
+.section-top
+  margin-bottom 20px
+  &__title 
+    border-bottom 1px solid grey
+    padding 15px 20px
+  &__link 
+    font-size 22px
+    vertical-align: middle
+    color pink
+    margin-right 10px
+  &__bwrap
+    height 36px
+    position absolute
+    bottom 3px
+    width 100%
+  &__item 
+    border 1px solid transparent
+    padding 10px
+    height 470px
+    width 25%
+    img 
+      width 100% 
+      height auto
+    &:hover 
+      border 1px solid pink3
+      .button 
+        display block
+  &__img 
+    text-align: center
+    padding 30px 0 0 0
+    position relative
+  .button 
+    width 100%
+    display none
+  &__name
+    font-size 19px
+    margin 10px 0
+  &__price
+    font-size 19px
+    display block
+    margin-bottom: 6px
+  &__discount 
+    font-size 16px
+    color pink3
+  &__per
+    color red
+    margin-left 10px
+  &__cbot 
+    padding 0 10px
+  &__ivent 
+    background: pink2
+    width 100%
+    span 
+      margin auto auto
+      color white
+      background: pink2
+      display block
+  &__info 
+    padding 20px
+    a 
+      color pink3
+      &:hover 
+        color red
+  &__all
+    margin-left auto
+    background: grey4
+    width 150px
+    span 
+      color white
+  &__photo 
+    padding 0 20px 20px 20px
+  &__plink
+    margin-right 20px
+    img 
+      width 100%
+      height auto
+.section-info 
+  margin-bottom 20px
+.section-collect 
+  margin-bottom 20px
+  &__ul 
+    padding 20px
+    li 
+      color pink3
+      line-height 30px
+.section-comments
+  margin-bottom 200px
+  .col__815 
+    background #fafafa
+  .col__32 
+    background: #f5f5f5
+    padding 20px
+  input 
+    margin-bottom 10px
+  .button 
+    width auto
+    padding 0 30px
+  .label__span 
+    margin-left 10px
+    margin-bottom 15px
+  textarea 
+    margin-bottom 10px
+    height 100px
+  &__rev
+    span 
+      color pink3
+      font-size 14px
+      margin-right 15px
+      margin 0 0 10px 0
+  p 
+    line-height 30px
+.text-wrap
+  margin-bottom 20px
+.col__21 
+  width 21%
+.col__950
+  width 79%
+.arrow1:after
+  sprite($sprite-arrow2)
+  content ''
+  display inline-block
+  vertical-align: middle
+  margin-left 10px
+.arrow:after 
+  sprite($sprite-arrow)
+  content ''
+  display inline-block
+  vertical-align: middle
+  margin-left 10px
+.section__h2 
+  font-size 20px
+.col__815
+  width 68%
+  padding 20px
+  border-right 1px solid grey
+.bx-wrapper
+  overflow-y hidden
+.col__290_border 
+  border-right 1px solid grey
+.col__76
+  width 76%
+.col__32
+  width 32%
+.col__17
+  width 17%
+.col__24
+  width 24.5%
+.col__15 
+  width 15%
+.col__22 
+  width 22%
+.mobile__menu
+  display none
+// Sandwitch
+.menu__sandwitch
+  display none
+  width 30px
+  height 20px
+  z-index 10
+  cursor pointer
+  margin-left 20px
+  > span
+    width 30px
+    height 3px
+    background black
+    border none
+    border-radius 4px
+    display block
+    position relative
+.menu__sandwitch.active .sw-topper 
+  background black
+  top: 8px
+  transform: rotate(-45deg) 
+.menu__sandwitch.active .sw-bottom 
+  background black
+  top: 5px
+  transform: rotate(45deg) 
+.menu__sandwitch.active .sw-footer 
+  background black
+  opacity: 0
+  top: 0
+  transform: rotate(180deg)
+.sw-topper
+  top 0px
+  transition: transform 0.5s, top 0.2s
+  display block 
+.sw-bottom 
+  top: 5px
+  transition: transform 0.5s, top 0.2s
+  transition-delay: 0.2s, 0s 
+.sw-footer 
+  top: 10px
+  transition: all 0.5s
+  transition-delay: 0.1s 
+.col__77 
+  width 77%
+// Медиаквери
+@media only screen and (max-width : 1200px)
+  .container-wrapper
+    width 100%
+  .col__290_border
+    display none
+  .header__search
+    width 41%
+  .form__input_547
+    width 89%
+  .col__76
+    width 100%
+@media only screen and (max-width : 1000px)
+  .col__290
+    width 100%
+  .flex__wrap 
+    flex-wrap wrap
+  .col__auto_reset
+    padding 0px 0px 20px 0px
+    border-top 1px solid grey
+    width 100%
+  .col__290_border
+    display block
+    border-top 1px solid grey
+  .flex__reverse
+    flex-direction: column-reverse;
+  .section-rev__wrapper
+    padding-left 20px 
+    padding-right 20px
+@media only screen and (max-width : 965px)
+  .menu 
+    display none
+  .menu__sandwitch
+    display block
+  .col__950
+  .col__21
+    width 100%
+  .section-top__ivent
+    padding 20px 0
+@media only screen and (max-width : 917px) 
+  .header__search
+    width 30%
+  .form__input_547
+    width 82% 
+  .col__815
+  .col__32
+    width 100%
+  .col__32 
+    border-top 1px solid grey
+  .section-top__info.column-m 
+  .section-top__content.column-m
+    flex-direction column
+  .section-top__info a
+    margin 10px 0 0 0
+    align-self: baseline;
+@media only screen and (max-width : 787px)
+  .header.column-m
+    flex-direction column
+  .header__search
+    margin 10px auto 14px auto
+  .header__search
+    width 100%
+    position relative
+  .form__input_547
+    width 94%
+  .button_icon
+    position absolute
+    top 10px
+  .section-top__contents.column-m
+  .section-rev__wrapper.column-m
+    flex-direction column   
+  .section-rev__wrapper
+    display none
+  .col__950
+    flex-wrap wrap 
+  .section-top__item
+    width 50%
+    text-align: center
+    border-bottom 1px solid grey
+    &:hover 
+      border 1px solid transparent
+      border-bottom 1px solid grey
+@media only screen and (max-width : 787px)
+  .section-geo__top.column-m
+    flex-direction column  
+    .js__tab 
+      margin 0 0 10px 0 
+  .section-top__photo
+    display none
+  .header__menu__lnik
+    margin 0px
+    padding 0 15px
+@media only screen and (max-width : 787px)
+  .section-geo__bottom
+    .js__cont
+      .column-m
+        flex-direction column
+        .section-geo__row 
+          margin 10px 0
+@media only screen and (max-width : 500px)
+  .section-top__link
+    font-size 16px
+  .form__input_547
+    width: 89%;
+@media only screen and (max-width : 400px)
+  .section-top__item
+    width 100%
+    height 440px
+    border-bottom 1px solid grey
+    &:hover 
+      border 1px solid transparent
+      border-bottom 1px solid grey

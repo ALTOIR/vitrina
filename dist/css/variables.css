@@ -1,14 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+a img {
+  display: block;
+}
+a {
+  display: inline-block;
+}
+.white {
+  color: #fff;
+}
+.blue {
+  color: #228fe3;
+}
+button {
+  border: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+menu {
+  padding: 0px;
+  margin: 0px;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #333;
+}
+p {
+  color: #333;
+  font-size: 16px;
+}
 a {
   text-decoration: none;
-  color: #fff;
+  color: #6168ad;
+  display: inline-block;
+}
+a:hover {
+  color: #e63d61;
 }
 h1,
 h2,
 h3,
 h4,
-h5 {
-  font-weight: 100;
+h5,
+h6 {
+  color: #444;
+  font-weight: normal;
 }
-* {
-  box-sizing: border-box;
+.text {
+  font-size: 16px;
+  line-height: 25px;
+}
+.button {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 18px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.button_big {
+  font-size: 16px;
+  height: 45px;
+  line-height: 45px;
+}
+.button_white {
+  background: #fff;
+  color: #333;
+}
+.button_pink {
+  background: #6168ad;
+  color: #fff;
+}
+.button_pink:hover {
+  color: #fff;
+  background: #7f6ca5;
+}
+.button_red {
+  color: #fff;
+  background: #e63d61;
+}
+.button_width {
+  width: 100%;
+}
+input[type=text]:read-only {
+  background-color: #f7fafc;
+  color: #eeeff7;
+}
+input[type=text]:read-only:focus {
+  border: 1px solid #eeeff7;
+}
+input[type=text]:disabled,
+input[type=submit]:disabled,
+.select_disabled,
+.button_disabled {
+  background: #c6c6c6 !important;
+  border: 1px solid #c6c6c6 !important;
+  color: #888686;
+  cursor: default;
+}
+.button_disabled:hover {
+  background: #c6c6c6 !important;
+  border: 1px solid #c6c6c6 !important;
+  color: #888686;
+  curosor: default !important;
+}
+.input_error {
+  border: 1px solid #f07676 !important;
+  color: #f07676;
+}
+.input_success {
+  border: 1px solid #008000 !important;
+  color: #008000;
+}
+input[type=submit]:disabled {
+  color: #fff;
+}
+.col__50 {
+  width: 50%;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 300;
 }

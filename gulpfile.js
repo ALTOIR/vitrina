@@ -11,12 +11,11 @@ gulp.task('sprite', function() {
   var spriteData = 
     gulp.src('assets/images/sprite/*.png') 
       .pipe(spritesmith({
-          retinaSrcFilter: 'assets/images/sprite/*2x.png',
-          imgName: 'sprite.png',
-          retinaImgName: 'sprite-2x.png',
+          imgName: 'sprite2.png',
           cssName: 'sprite.styl',
           cssFormat: 'stylus',
           algorithm: 'binary-tree',
+          padding: 10,
           cssTemplate: 'stylus.template.mustache',
           cssVarMap: function(sprite) {
               sprite.name = 'sprite-' + sprite.name

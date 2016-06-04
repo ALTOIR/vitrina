@@ -42,7 +42,7 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -30px;
+	bottom: 0px;
 	width: 100%;
 }
 
@@ -74,11 +74,10 @@
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
 	display: inline-block;
 	zoom: 1;
-	display: inline;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: #E64F74;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -92,7 +91,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: #fff;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */

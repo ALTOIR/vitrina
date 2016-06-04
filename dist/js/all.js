@@ -23,44 +23,19 @@ $(document).ready(function() {
   });
 
   // Navgoco acordion
-  $(".faq__questions").navgoco({accordion: true});
-  // Show google map 
+  // $(".faq__questions").navgoco({accordion: true});
 
-  $('.partners').slick({
-  infinite: true,
-  slidesToScroll: 1,
-  dots: false,
-  arrows: false,
-  autoplay: true,
-  slidesToShow: 15,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1920,
-      settings: {
-        slidesToShow: 15,
-        slidesToScroll: 15,
-        infinite: true
-      }
-    },
-    {
-      breakpoint: 1564,
-      settings: {
-        slidesToShow: 13,
-        slidesToScroll: 13
-      }
-    },
-    {
-      breakpoint: 1410,
-      settings: {
-        slidesToShow: 11,
-        slidesToScroll: 11
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+  // Slider 
+  $('.section-slider__slides').slick({
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    infinite: true
+  });
+  // Sandwitch
+  $('.menu__sandwitch').click(function(event) {
+    $(this).toggleClass('active');
+    $('.wrapper').toggleClass('m-active');
   });
 
 });

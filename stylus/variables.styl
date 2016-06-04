@@ -1,5 +1,8 @@
 *
   box-sizing border-box
+a 
+  img 
+    display block
 // Functions 
 decor()
   text-decoration underline
@@ -8,21 +11,29 @@ decor()
 trs()
   transition ease-in-out .2s
 // Colors
-dark = #3c3c3c
+dark = #333333
 yellow = #fbd71d
 blue = #228fe3
 blue2 = #2F5877
-grey = #888888
-grey2 = #d9d9d9
+grey = #f0f0f0
+grey2 = #eeeff7
 grey3 = #f8f8f8
+grey4 = #777777
+grey5 = #bfc4d0
 soft = #f7fafc
+red = #e63d61
+pink = #6168ad
+pink2 = #7f6ca5
+pink3 = #8a91a7
 // Color class
+a 
+  display inline-block
 .white
   color white
 .blue 
   color blue
 // Fonts
-roboto = 'Roboto', sans-serif;
+scada = 'Scada', sans-serif;
 // Buttons
 button 
   border none 
@@ -37,31 +48,33 @@ menu
 span 
   display inline-block
   vertical-align middle
-  font-size 15px
-  color grey
+  font-size 16px
+  color dark
+p 
+  color dark
+  font-size 16px
 a 
   text-decoration none
-  color blue
+  color pink
   display inline-block
+  &:hover 
+    color red
 h1, h2, h3, h4, h5, h6 
   color #444444
   font-weight normal
 .text 
-  font-size 14px
-  line-height 22px
+  font-size 16px
+  line-height 25px
 .button
-  height 35px 
+  height 36px 
   line-height @height
   padding 0 18px
   display inline-block
-  border-radius (25px)
+  border-radius (4px)
   font-size 14px
   text-align: center
   cursor pointer
   trs()
-  &:hover 
-    border-radius 0
-    trs()
 .button_big
   font-size 16px
   height 45px 
@@ -69,12 +82,15 @@ h1, h2, h3, h4, h5, h6
 .button_white
   background white
   color dark
-.button_blue
-  background blue
+.button_pink
+  background pink
   color white
-.button_yellow 
-  color dark
-  background: yellow
+  &:hover 
+    color white 
+    background: pink2
+.button_red
+  color white
+  background: red
 .button_width 
   width 100%
 // Disabled input
@@ -117,3 +133,5 @@ h2
 h4 
   font-size 24px
   font-weight 300
+shadow()
+  box-shadow: 0 3px 10px rgba(160, 160, 160, 0.4);
