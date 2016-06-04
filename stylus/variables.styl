@@ -1,0 +1,119 @@
+*
+  box-sizing border-box
+// Functions 
+decor()
+  text-decoration underline
+  &:hover 
+    text-decoration none
+trs()
+  transition ease-in-out .2s
+// Colors
+dark = #3c3c3c
+yellow = #fbd71d
+blue = #228fe3
+blue2 = #2F5877
+grey = #888888
+grey2 = #d9d9d9
+grey3 = #f8f8f8
+soft = #f7fafc
+// Color class
+.white
+  color white
+.blue 
+  color blue
+// Fonts
+roboto = 'Roboto', sans-serif;
+// Buttons
+button 
+  border none 
+  vertical-align middle
+  cursor pointer 
+  border none
+  outline none
+  background transparent
+menu 
+  padding 0px
+  margin 0px
+span 
+  display inline-block
+  vertical-align middle
+  font-size 15px
+  color grey
+a 
+  text-decoration none
+  color blue
+  display inline-block
+h1, h2, h3, h4, h5, h6 
+  color #444444
+  font-weight normal
+.text 
+  font-size 14px
+  line-height 22px
+.button
+  height 35px 
+  line-height @height
+  padding 0 18px
+  display inline-block
+  border-radius (25px)
+  font-size 14px
+  text-align: center
+  cursor pointer
+  trs()
+  &:hover 
+    border-radius 0
+    trs()
+.button_big
+  font-size 16px
+  height 45px 
+  line-height @height
+.button_white
+  background white
+  color dark
+.button_blue
+  background blue
+  color white
+.button_yellow 
+  color dark
+  background: yellow
+.button_width 
+  width 100%
+// Disabled input
+input[type=text]:read-only
+  background-color: #f7fafc
+  color grey2
+  &:focus
+    border 1px solid grey2
+input[type=text]:disabled,
+input[type=submit]:disabled,
+.select_disabled,
+.button_disabled
+  background: #c6c6c6 !important
+  border 1px solid #c6c6c6 !important
+  color #888686
+  cursor default
+.button_disabled:hover
+  background: #c6c6c6 !important
+  border 1px solid #c6c6c6 !important
+  color #888686
+  curosor default !important
+.input_error
+  border 1px solid #f07676 !important
+  color #f07676
+.input_success 
+  border 1px solid green !important
+  color green
+input[type=submit]:disabled
+  color white
+// coll 
+.col__50 
+  width 50%
+// H heading 
+h3 
+  font-size 32px
+  font-weight 300 
+h2 
+  font-size 36px
+  font-weight 300
+h4 
+  font-size 24px
+  font-weight 300

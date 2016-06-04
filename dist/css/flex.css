@@ -1,0 +1,48 @@
+.f__jusy_end {
+  justify-content: end;
+}
+.f__align_c {
+  align-items: center;
+}
+.f__row {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  flex: 0 1 auto;
+}
+.f__coll {
+  padding: 0 15px;
+}
+.f__inline {
+  display: inline-flex;
+}
+.f__container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.f__space_b {
+  justify-content: space-between;
+}
+.f__25 {
+  flex-basis: 25%;
+  width: 25%;
+}
+.f__wrap {
+  flex-wrap: wrap;
+}
+.f__box {
+  display: flex;
+}
+.f__nowrap {
+  flex-wrap: nowrap;
+}
+.f__100 {
+  width: 100%;
+}
+.f__anal {
+  flex: 0 0 auto;
+}

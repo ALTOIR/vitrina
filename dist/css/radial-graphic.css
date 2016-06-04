@@ -1,0 +1,2480 @@
+.graphic__prog[data-percent="1"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="1"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(3.6deg);
+  -moz-transform: rotate(3.6deg);
+  -o-transform: rotate(3.6deg);
+  -ms-transform: rotate(3.6deg);
+  transform: rotate(3.6deg);
+}
+.graphic__prog[data-percent="2"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="2"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(7.2deg);
+  -moz-transform: rotate(7.2deg);
+  -o-transform: rotate(7.2deg);
+  -ms-transform: rotate(7.2deg);
+  transform: rotate(7.2deg);
+}
+.graphic__prog[data-percent="3"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="3"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(10.8deg);
+  -moz-transform: rotate(10.8deg);
+  -o-transform: rotate(10.8deg);
+  -ms-transform: rotate(10.8deg);
+  transform: rotate(10.8deg);
+}
+.graphic__prog[data-percent="4"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="4"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(14.4deg);
+  -moz-transform: rotate(14.4deg);
+  -o-transform: rotate(14.4deg);
+  -ms-transform: rotate(14.4deg);
+  transform: rotate(14.4deg);
+}
+.graphic__prog[data-percent="5"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="5"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+.graphic__prog[data-percent="6"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="6"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(21.6deg);
+  -moz-transform: rotate(21.6deg);
+  -o-transform: rotate(21.6deg);
+  -ms-transform: rotate(21.6deg);
+  transform: rotate(21.6deg);
+}
+.graphic__prog[data-percent="7"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="7"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(25.2deg);
+  -moz-transform: rotate(25.2deg);
+  -o-transform: rotate(25.2deg);
+  -ms-transform: rotate(25.2deg);
+  transform: rotate(25.2deg);
+}
+.graphic__prog[data-percent="8"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="8"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(28.8deg);
+  -moz-transform: rotate(28.8deg);
+  -o-transform: rotate(28.8deg);
+  -ms-transform: rotate(28.8deg);
+  transform: rotate(28.8deg);
+}
+.graphic__prog[data-percent="9"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="9"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(32.4deg);
+  -moz-transform: rotate(32.4deg);
+  -o-transform: rotate(32.4deg);
+  -ms-transform: rotate(32.4deg);
+  transform: rotate(32.4deg);
+}
+.graphic__prog[data-percent="10"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="10"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+.graphic__prog[data-percent="11"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="11"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(39.6deg);
+  -moz-transform: rotate(39.6deg);
+  -o-transform: rotate(39.6deg);
+  -ms-transform: rotate(39.6deg);
+  transform: rotate(39.6deg);
+}
+.graphic__prog[data-percent="12"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="12"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(43.2deg);
+  -moz-transform: rotate(43.2deg);
+  -o-transform: rotate(43.2deg);
+  -ms-transform: rotate(43.2deg);
+  transform: rotate(43.2deg);
+}
+.graphic__prog[data-percent="13"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="13"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(46.8deg);
+  -moz-transform: rotate(46.8deg);
+  -o-transform: rotate(46.8deg);
+  -ms-transform: rotate(46.8deg);
+  transform: rotate(46.8deg);
+}
+.graphic__prog[data-percent="14"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="14"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(50.4deg);
+  -moz-transform: rotate(50.4deg);
+  -o-transform: rotate(50.4deg);
+  -ms-transform: rotate(50.4deg);
+  transform: rotate(50.4deg);
+}
+.graphic__prog[data-percent="15"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="15"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(54deg);
+  -moz-transform: rotate(54deg);
+  -o-transform: rotate(54deg);
+  -ms-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+.graphic__prog[data-percent="16"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="16"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(57.6deg);
+  -moz-transform: rotate(57.6deg);
+  -o-transform: rotate(57.6deg);
+  -ms-transform: rotate(57.6deg);
+  transform: rotate(57.6deg);
+}
+.graphic__prog[data-percent="17"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="17"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(61.2deg);
+  -moz-transform: rotate(61.2deg);
+  -o-transform: rotate(61.2deg);
+  -ms-transform: rotate(61.2deg);
+  transform: rotate(61.2deg);
+}
+.graphic__prog[data-percent="18"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="18"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(64.8deg);
+  -moz-transform: rotate(64.8deg);
+  -o-transform: rotate(64.8deg);
+  -ms-transform: rotate(64.8deg);
+  transform: rotate(64.8deg);
+}
+.graphic__prog[data-percent="19"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="19"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(68.4deg);
+  -moz-transform: rotate(68.4deg);
+  -o-transform: rotate(68.4deg);
+  -ms-transform: rotate(68.4deg);
+  transform: rotate(68.4deg);
+}
+.graphic__prog[data-percent="20"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="20"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+.graphic__prog[data-percent="21"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="21"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(75.6deg);
+  -moz-transform: rotate(75.6deg);
+  -o-transform: rotate(75.6deg);
+  -ms-transform: rotate(75.6deg);
+  transform: rotate(75.6deg);
+}
+.graphic__prog[data-percent="22"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="22"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(79.2deg);
+  -moz-transform: rotate(79.2deg);
+  -o-transform: rotate(79.2deg);
+  -ms-transform: rotate(79.2deg);
+  transform: rotate(79.2deg);
+}
+.graphic__prog[data-percent="23"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="23"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(82.8deg);
+  -moz-transform: rotate(82.8deg);
+  -o-transform: rotate(82.8deg);
+  -ms-transform: rotate(82.8deg);
+  transform: rotate(82.8deg);
+}
+.graphic__prog[data-percent="24"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="24"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(86.4deg);
+  -moz-transform: rotate(86.4deg);
+  -o-transform: rotate(86.4deg);
+  -ms-transform: rotate(86.4deg);
+  transform: rotate(86.4deg);
+}
+.graphic__prog[data-percent="25"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="25"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.graphic__prog[data-percent="26"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="26"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(93.6deg);
+  -moz-transform: rotate(93.6deg);
+  -o-transform: rotate(93.6deg);
+  -ms-transform: rotate(93.6deg);
+  transform: rotate(93.6deg);
+}
+.graphic__prog[data-percent="27"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="27"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(97.2deg);
+  -moz-transform: rotate(97.2deg);
+  -o-transform: rotate(97.2deg);
+  -ms-transform: rotate(97.2deg);
+  transform: rotate(97.2deg);
+}
+.graphic__prog[data-percent="28"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="28"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(100.8deg);
+  -moz-transform: rotate(100.8deg);
+  -o-transform: rotate(100.8deg);
+  -ms-transform: rotate(100.8deg);
+  transform: rotate(100.8deg);
+}
+.graphic__prog[data-percent="29"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="29"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(104.4deg);
+  -moz-transform: rotate(104.4deg);
+  -o-transform: rotate(104.4deg);
+  -ms-transform: rotate(104.4deg);
+  transform: rotate(104.4deg);
+}
+.graphic__prog[data-percent="30"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="30"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+.graphic__prog[data-percent="31"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="31"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(111.6deg);
+  -moz-transform: rotate(111.6deg);
+  -o-transform: rotate(111.6deg);
+  -ms-transform: rotate(111.6deg);
+  transform: rotate(111.6deg);
+}
+.graphic__prog[data-percent="32"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="32"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(115.2deg);
+  -moz-transform: rotate(115.2deg);
+  -o-transform: rotate(115.2deg);
+  -ms-transform: rotate(115.2deg);
+  transform: rotate(115.2deg);
+}
+.graphic__prog[data-percent="33"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="33"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(118.8deg);
+  -moz-transform: rotate(118.8deg);
+  -o-transform: rotate(118.8deg);
+  -ms-transform: rotate(118.8deg);
+  transform: rotate(118.8deg);
+}
+.graphic__prog[data-percent="34"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="34"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(122.4deg);
+  -moz-transform: rotate(122.4deg);
+  -o-transform: rotate(122.4deg);
+  -ms-transform: rotate(122.4deg);
+  transform: rotate(122.4deg);
+}
+.graphic__prog[data-percent="35"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="35"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(126deg);
+  -moz-transform: rotate(126deg);
+  -o-transform: rotate(126deg);
+  -ms-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+.graphic__prog[data-percent="36"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="36"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(129.6deg);
+  -moz-transform: rotate(129.6deg);
+  -o-transform: rotate(129.6deg);
+  -ms-transform: rotate(129.6deg);
+  transform: rotate(129.6deg);
+}
+.graphic__prog[data-percent="37"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="37"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(133.2deg);
+  -moz-transform: rotate(133.2deg);
+  -o-transform: rotate(133.2deg);
+  -ms-transform: rotate(133.2deg);
+  transform: rotate(133.2deg);
+}
+.graphic__prog[data-percent="38"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="38"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(136.8deg);
+  -moz-transform: rotate(136.8deg);
+  -o-transform: rotate(136.8deg);
+  -ms-transform: rotate(136.8deg);
+  transform: rotate(136.8deg);
+}
+.graphic__prog[data-percent="39"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="39"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(140.4deg);
+  -moz-transform: rotate(140.4deg);
+  -o-transform: rotate(140.4deg);
+  -ms-transform: rotate(140.4deg);
+  transform: rotate(140.4deg);
+}
+.graphic__prog[data-percent="40"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="40"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+.graphic__prog[data-percent="41"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="41"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(147.6deg);
+  -moz-transform: rotate(147.6deg);
+  -o-transform: rotate(147.6deg);
+  -ms-transform: rotate(147.6deg);
+  transform: rotate(147.6deg);
+}
+.graphic__prog[data-percent="42"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="42"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(151.2deg);
+  -moz-transform: rotate(151.2deg);
+  -o-transform: rotate(151.2deg);
+  -ms-transform: rotate(151.2deg);
+  transform: rotate(151.2deg);
+}
+.graphic__prog[data-percent="43"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="43"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(154.8deg);
+  -moz-transform: rotate(154.8deg);
+  -o-transform: rotate(154.8deg);
+  -ms-transform: rotate(154.8deg);
+  transform: rotate(154.8deg);
+}
+.graphic__prog[data-percent="44"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="44"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(158.4deg);
+  -moz-transform: rotate(158.4deg);
+  -o-transform: rotate(158.4deg);
+  -ms-transform: rotate(158.4deg);
+  transform: rotate(158.4deg);
+}
+.graphic__prog[data-percent="45"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="45"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(162deg);
+  -moz-transform: rotate(162deg);
+  -o-transform: rotate(162deg);
+  -ms-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+.graphic__prog[data-percent="46"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="46"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(165.6deg);
+  -moz-transform: rotate(165.6deg);
+  -o-transform: rotate(165.6deg);
+  -ms-transform: rotate(165.6deg);
+  transform: rotate(165.6deg);
+}
+.graphic__prog[data-percent="47"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="47"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(169.2deg);
+  -moz-transform: rotate(169.2deg);
+  -o-transform: rotate(169.2deg);
+  -ms-transform: rotate(169.2deg);
+  transform: rotate(169.2deg);
+}
+.graphic__prog[data-percent="48"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="48"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(172.8deg);
+  -moz-transform: rotate(172.8deg);
+  -o-transform: rotate(172.8deg);
+  -ms-transform: rotate(172.8deg);
+  transform: rotate(172.8deg);
+}
+.graphic__prog[data-percent="49"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="49"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(176.4deg);
+  -moz-transform: rotate(176.4deg);
+  -o-transform: rotate(176.4deg);
+  -ms-transform: rotate(176.4deg);
+  transform: rotate(176.4deg);
+}
+.graphic__prog[data-percent="50"] {
+  width: 50%;
+  hieght: 100%;
+  left: 50%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="50"]:before {
+  left: -100%;
+  width: 100%;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.graphic__prog[data-percent="50"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="50"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.graphic__prog[data-percent="50"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="51"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="51"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(183.6deg);
+  -moz-transform: rotate(183.6deg);
+  -o-transform: rotate(183.6deg);
+  -ms-transform: rotate(183.6deg);
+  transform: rotate(183.6deg);
+}
+.graphic__prog[data-percent="51"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="52"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="52"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(187.2deg);
+  -moz-transform: rotate(187.2deg);
+  -o-transform: rotate(187.2deg);
+  -ms-transform: rotate(187.2deg);
+  transform: rotate(187.2deg);
+}
+.graphic__prog[data-percent="52"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="53"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="53"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(190.8deg);
+  -moz-transform: rotate(190.8deg);
+  -o-transform: rotate(190.8deg);
+  -ms-transform: rotate(190.8deg);
+  transform: rotate(190.8deg);
+}
+.graphic__prog[data-percent="53"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="54"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="54"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(194.4deg);
+  -moz-transform: rotate(194.4deg);
+  -o-transform: rotate(194.4deg);
+  -ms-transform: rotate(194.4deg);
+  transform: rotate(194.4deg);
+}
+.graphic__prog[data-percent="54"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="55"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="55"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(198deg);
+  -moz-transform: rotate(198deg);
+  -o-transform: rotate(198deg);
+  -ms-transform: rotate(198deg);
+  transform: rotate(198deg);
+}
+.graphic__prog[data-percent="55"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="56"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="56"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(201.6deg);
+  -moz-transform: rotate(201.6deg);
+  -o-transform: rotate(201.6deg);
+  -ms-transform: rotate(201.6deg);
+  transform: rotate(201.6deg);
+}
+.graphic__prog[data-percent="56"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="57"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="57"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(205.2deg);
+  -moz-transform: rotate(205.2deg);
+  -o-transform: rotate(205.2deg);
+  -ms-transform: rotate(205.2deg);
+  transform: rotate(205.2deg);
+}
+.graphic__prog[data-percent="57"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="58"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="58"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(208.8deg);
+  -moz-transform: rotate(208.8deg);
+  -o-transform: rotate(208.8deg);
+  -ms-transform: rotate(208.8deg);
+  transform: rotate(208.8deg);
+}
+.graphic__prog[data-percent="58"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="59"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="59"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(212.4deg);
+  -moz-transform: rotate(212.4deg);
+  -o-transform: rotate(212.4deg);
+  -ms-transform: rotate(212.4deg);
+  transform: rotate(212.4deg);
+}
+.graphic__prog[data-percent="59"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="60"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="60"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+.graphic__prog[data-percent="60"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="61"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="61"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(219.6deg);
+  -moz-transform: rotate(219.6deg);
+  -o-transform: rotate(219.6deg);
+  -ms-transform: rotate(219.6deg);
+  transform: rotate(219.6deg);
+}
+.graphic__prog[data-percent="61"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="62"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="62"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(223.2deg);
+  -moz-transform: rotate(223.2deg);
+  -o-transform: rotate(223.2deg);
+  -ms-transform: rotate(223.2deg);
+  transform: rotate(223.2deg);
+}
+.graphic__prog[data-percent="62"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="63"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="63"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(226.8deg);
+  -moz-transform: rotate(226.8deg);
+  -o-transform: rotate(226.8deg);
+  -ms-transform: rotate(226.8deg);
+  transform: rotate(226.8deg);
+}
+.graphic__prog[data-percent="63"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="64"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="64"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(230.4deg);
+  -moz-transform: rotate(230.4deg);
+  -o-transform: rotate(230.4deg);
+  -ms-transform: rotate(230.4deg);
+  transform: rotate(230.4deg);
+}
+.graphic__prog[data-percent="64"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="65"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="65"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(234deg);
+  -moz-transform: rotate(234deg);
+  -o-transform: rotate(234deg);
+  -ms-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+.graphic__prog[data-percent="65"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="66"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="66"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(237.6deg);
+  -moz-transform: rotate(237.6deg);
+  -o-transform: rotate(237.6deg);
+  -ms-transform: rotate(237.6deg);
+  transform: rotate(237.6deg);
+}
+.graphic__prog[data-percent="66"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="67"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="67"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(241.2deg);
+  -moz-transform: rotate(241.2deg);
+  -o-transform: rotate(241.2deg);
+  -ms-transform: rotate(241.2deg);
+  transform: rotate(241.2deg);
+}
+.graphic__prog[data-percent="67"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="68"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="68"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(244.8deg);
+  -moz-transform: rotate(244.8deg);
+  -o-transform: rotate(244.8deg);
+  -ms-transform: rotate(244.8deg);
+  transform: rotate(244.8deg);
+}
+.graphic__prog[data-percent="68"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="69"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="69"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(248.4deg);
+  -moz-transform: rotate(248.4deg);
+  -o-transform: rotate(248.4deg);
+  -ms-transform: rotate(248.4deg);
+  transform: rotate(248.4deg);
+}
+.graphic__prog[data-percent="69"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="70"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="70"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+.graphic__prog[data-percent="70"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="71"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="71"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(255.6deg);
+  -moz-transform: rotate(255.6deg);
+  -o-transform: rotate(255.6deg);
+  -ms-transform: rotate(255.6deg);
+  transform: rotate(255.6deg);
+}
+.graphic__prog[data-percent="71"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="72"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="72"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(259.2deg);
+  -moz-transform: rotate(259.2deg);
+  -o-transform: rotate(259.2deg);
+  -ms-transform: rotate(259.2deg);
+  transform: rotate(259.2deg);
+}
+.graphic__prog[data-percent="72"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="73"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="73"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(262.8deg);
+  -moz-transform: rotate(262.8deg);
+  -o-transform: rotate(262.8deg);
+  -ms-transform: rotate(262.8deg);
+  transform: rotate(262.8deg);
+}
+.graphic__prog[data-percent="73"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="74"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="74"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(266.4deg);
+  -moz-transform: rotate(266.4deg);
+  -o-transform: rotate(266.4deg);
+  -ms-transform: rotate(266.4deg);
+  transform: rotate(266.4deg);
+}
+.graphic__prog[data-percent="74"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="75"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="75"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.graphic__prog[data-percent="75"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="76"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="76"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(273.6deg);
+  -moz-transform: rotate(273.6deg);
+  -o-transform: rotate(273.6deg);
+  -ms-transform: rotate(273.6deg);
+  transform: rotate(273.6deg);
+}
+.graphic__prog[data-percent="76"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="77"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="77"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(277.2deg);
+  -moz-transform: rotate(277.2deg);
+  -o-transform: rotate(277.2deg);
+  -ms-transform: rotate(277.2deg);
+  transform: rotate(277.2deg);
+}
+.graphic__prog[data-percent="77"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="78"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="78"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(280.8deg);
+  -moz-transform: rotate(280.8deg);
+  -o-transform: rotate(280.8deg);
+  -ms-transform: rotate(280.8deg);
+  transform: rotate(280.8deg);
+}
+.graphic__prog[data-percent="78"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="79"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="79"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(284.4deg);
+  -moz-transform: rotate(284.4deg);
+  -o-transform: rotate(284.4deg);
+  -ms-transform: rotate(284.4deg);
+  transform: rotate(284.4deg);
+}
+.graphic__prog[data-percent="79"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="80"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="80"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+.graphic__prog[data-percent="80"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="81"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="81"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(291.6deg);
+  -moz-transform: rotate(291.6deg);
+  -o-transform: rotate(291.6deg);
+  -ms-transform: rotate(291.6deg);
+  transform: rotate(291.6deg);
+}
+.graphic__prog[data-percent="81"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="82"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="82"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(295.2deg);
+  -moz-transform: rotate(295.2deg);
+  -o-transform: rotate(295.2deg);
+  -ms-transform: rotate(295.2deg);
+  transform: rotate(295.2deg);
+}
+.graphic__prog[data-percent="82"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="83"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="83"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(298.8deg);
+  -moz-transform: rotate(298.8deg);
+  -o-transform: rotate(298.8deg);
+  -ms-transform: rotate(298.8deg);
+  transform: rotate(298.8deg);
+}
+.graphic__prog[data-percent="83"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="84"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="84"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(302.4deg);
+  -moz-transform: rotate(302.4deg);
+  -o-transform: rotate(302.4deg);
+  -ms-transform: rotate(302.4deg);
+  transform: rotate(302.4deg);
+}
+.graphic__prog[data-percent="84"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="85"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="85"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(306deg);
+  -moz-transform: rotate(306deg);
+  -o-transform: rotate(306deg);
+  -ms-transform: rotate(306deg);
+  transform: rotate(306deg);
+}
+.graphic__prog[data-percent="85"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="86"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="86"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(309.6deg);
+  -moz-transform: rotate(309.6deg);
+  -o-transform: rotate(309.6deg);
+  -ms-transform: rotate(309.6deg);
+  transform: rotate(309.6deg);
+}
+.graphic__prog[data-percent="86"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="87"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="87"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(313.2deg);
+  -moz-transform: rotate(313.2deg);
+  -o-transform: rotate(313.2deg);
+  -ms-transform: rotate(313.2deg);
+  transform: rotate(313.2deg);
+}
+.graphic__prog[data-percent="87"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="88"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="88"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(316.8deg);
+  -moz-transform: rotate(316.8deg);
+  -o-transform: rotate(316.8deg);
+  -ms-transform: rotate(316.8deg);
+  transform: rotate(316.8deg);
+}
+.graphic__prog[data-percent="88"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="89"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="89"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(320.4deg);
+  -moz-transform: rotate(320.4deg);
+  -o-transform: rotate(320.4deg);
+  -ms-transform: rotate(320.4deg);
+  transform: rotate(320.4deg);
+}
+.graphic__prog[data-percent="89"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="90"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="90"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+.graphic__prog[data-percent="90"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="91"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="91"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(327.6deg);
+  -moz-transform: rotate(327.6deg);
+  -o-transform: rotate(327.6deg);
+  -ms-transform: rotate(327.6deg);
+  transform: rotate(327.6deg);
+}
+.graphic__prog[data-percent="91"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="92"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="92"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(331.2deg);
+  -moz-transform: rotate(331.2deg);
+  -o-transform: rotate(331.2deg);
+  -ms-transform: rotate(331.2deg);
+  transform: rotate(331.2deg);
+}
+.graphic__prog[data-percent="92"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="93"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="93"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(334.8deg);
+  -moz-transform: rotate(334.8deg);
+  -o-transform: rotate(334.8deg);
+  -ms-transform: rotate(334.8deg);
+  transform: rotate(334.8deg);
+}
+.graphic__prog[data-percent="93"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="94"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="94"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(338.4deg);
+  -moz-transform: rotate(338.4deg);
+  -o-transform: rotate(338.4deg);
+  -ms-transform: rotate(338.4deg);
+  transform: rotate(338.4deg);
+}
+.graphic__prog[data-percent="94"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="95"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="95"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(342deg);
+  -moz-transform: rotate(342deg);
+  -o-transform: rotate(342deg);
+  -ms-transform: rotate(342deg);
+  transform: rotate(342deg);
+}
+.graphic__prog[data-percent="95"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="96"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="96"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(345.6deg);
+  -moz-transform: rotate(345.6deg);
+  -o-transform: rotate(345.6deg);
+  -ms-transform: rotate(345.6deg);
+  transform: rotate(345.6deg);
+}
+.graphic__prog[data-percent="96"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="97"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="97"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(349.2deg);
+  -moz-transform: rotate(349.2deg);
+  -o-transform: rotate(349.2deg);
+  -ms-transform: rotate(349.2deg);
+  transform: rotate(349.2deg);
+}
+.graphic__prog[data-percent="97"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="98"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="98"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(352.8deg);
+  -moz-transform: rotate(352.8deg);
+  -o-transform: rotate(352.8deg);
+  -ms-transform: rotate(352.8deg);
+  transform: rotate(352.8deg);
+}
+.graphic__prog[data-percent="98"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="99"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="99"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(356.4deg);
+  -moz-transform: rotate(356.4deg);
+  -o-transform: rotate(356.4deg);
+  -ms-transform: rotate(356.4deg);
+  transform: rotate(356.4deg);
+}
+.graphic__prog[data-percent="99"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
+.graphic__prog[data-percent="100"] {
+  width: 100%;
+  hieght: 100%;
+  left: 0%;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+.graphic__prog[data-percent="100"]:before {
+  left: 0%;
+  width: 50%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.graphic__prog[data-percent="100"]:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+  border-bottom-left-radius: 0 0;
+}
