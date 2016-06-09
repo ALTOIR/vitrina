@@ -7,7 +7,6 @@
 @import 'nib';
 @import 'sprite';
 @import 'mixins';
-@import 'media';
 
 body 
   font-family Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
@@ -57,16 +56,21 @@ input
   padding 15px 0
   margin 0 0 20px 0
 .menu
+  padding: 0 20px 0 22px;
   &__item
     text-align: center
     flex-grow 1
     flex-basis 0 
     width-width 100%
-    &:first-child:before
-      sprite($sprite-icon7)
-      content ''
-      display inline-block
-      margin-right 10px
+    &:first-child
+      text-align left
+      &:before
+        sprite($sprite-icon7)
+        content ''
+        display inline-block
+        margin-right 10px
+    &:last-child
+      text-align: right
   &__link
     color dark
     text-transform: uppercase
@@ -186,7 +190,7 @@ input
     border-bottom 1px solid grey
     padding 15px 20px
   &__link 
-    font-size 22px
+    font-size 20px
     vertical-align: middle
     color pink
     margin-right 10px
@@ -380,33 +384,59 @@ input
 @media only screen and (max-width : 1200px)
   .container-wrapper
     width 100%
-  .col__290_border
-    display none
   .header__search
     width 41%
   .form__input_547
     width 89%
   .col__76
     width 100%
-@media only screen and (max-width : 1000px)
-  .col__290
+  .flex__reverse
+    flex-direction: column-reverse;
+  .inline-flex
+    display inline-flex
+  .section-slider__bottom
+    text-align left
+    border-left 1px solid grey
+    border-right 1px solid grey
+  .section-slider__likes span:first-child
+    border none
+  .section-slider__top
+    width 290px
+  .section-slider__title
+    margin 10px 0 20px 0
+  .section-slider__likes
+    align-items: center;
+    width 37%
+  .section-slider__bottom
+    width 36%
+  .col__290_border
     width 100%
+    border-top 1px solid grey
+@media only screen and (max-width : 1000px)
+  .col__290_bottom
+    width 100%
+  .section-geo__geo
+    padding-top 0px
+    margin-left 20px
+  .section-geo__item
+    margin-right 10px
+  .section-geo__wrapper
+    display inline-flex
+    align-items: center;
+  .section-geo__wrapper
+    border none
   .flex__wrap 
     flex-wrap wrap
   .col__auto_reset
     padding 0px 0px 20px 0px
     border-top 1px solid grey
     width 100%
-  .col__290_border
-    display block
-    border-top 1px solid grey
-  .flex__reverse
-    flex-direction: column-reverse;
   .section-rev__wrapper
     padding-left 20px 
     padding-right 20px
 @media only screen and (max-width : 965px)
-  .menu 
+  .menu
+  .header__menu 
     display none
   .menu__sandwitch
     display block

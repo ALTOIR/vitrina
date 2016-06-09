@@ -271,6 +271,9 @@ input {
   padding: 15px 0;
   margin: 0 0 20px 0;
 }
+.menu {
+  padding: 0 20px 0 22px;
+}
 .menu__item {
   text-align: center;
   -webkit-box-flex: 1;
@@ -284,6 +287,9 @@ input {
   flex-basis: 0;
   width-width: 100%;
 }
+.menu__item:first-child {
+  text-align: left;
+}
 .menu__item:first-child:before {
   background-image: url("../images/sprite2.png");
   background-position: -151px -50px;
@@ -292,6 +298,9 @@ input {
   content: '';
   display: inline-block;
   margin-right: 10px;
+}
+.menu__item:last-child {
+  text-align: right;
 }
 .menu__link {
   color: #333;
@@ -461,7 +470,7 @@ input {
   padding: 15px 20px;
 }
 .section-top__link {
-  font-size: 22px;
+  font-size: 20px;
   vertical-align: middle;
   color: #6168ad;
   margin-right: 10px;
@@ -755,9 +764,6 @@ input {
   .container-wrapper {
     width: 100%;
   }
-  .col__290_border {
-    display: none;
-  }
   .header__search {
     width: 41%;
   }
@@ -767,10 +773,83 @@ input {
   .col__76 {
     width: 100%;
   }
+  .flex__reverse {
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -o-box-direction: reverse;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .inline-flex {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-box;
+    display: inline-flex;
+  }
+  .section-slider__bottom {
+    text-align: left;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+  }
+  .section-slider__likes span:first-child {
+    border: none;
+  }
+  .section-slider__top {
+    width: 290px;
+  }
+  .section-slider__title {
+    margin: 10px 0 20px 0;
+  }
+  .section-slider__likes {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 37%;
+  }
+  .section-slider__bottom {
+    width: 36%;
+  }
+  .col__290_border {
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+  }
 }
 @media only screen and (max-width: 1000px) {
-  .col__290 {
+  .col__290_bottom {
     width: 100%;
+  }
+  .section-geo__geo {
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  .section-geo__item {
+    margin-right: 10px;
+  }
+  .section-geo__wrapper {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .section-geo__wrapper {
+    border: none;
   }
   .flex__wrap {
     -webkit-box-lines: multiple;
@@ -785,28 +864,14 @@ input {
     border-top: 1px solid #f0f0f0;
     width: 100%;
   }
-  .col__290_border {
-    display: block;
-    border-top: 1px solid #f0f0f0;
-  }
-  .flex__reverse {
-    -webkit-box-direction: reverse;
-    -moz-box-direction: reverse;
-    -o-box-direction: reverse;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -o-box-orient: vertical;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-  }
   .section-rev__wrapper {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media only screen and (max-width: 965px) {
-  .menu {
+  .menu,
+  .header__menu {
     display: none;
   }
   .menu__sandwitch {
