@@ -12,7 +12,7 @@
       a(href="").header__menu__lnik Коллекции
       a(href="").header__menu__lnik События
 .menu-container
-  .container-wrapper
+  .container-wrapper.container-wrapper_flex
     .menu__sandwitch
       span.sw-topper
       span.sw-bottom
@@ -33,3 +33,8 @@
       li.menu__item
         a(href="").menu__link Бренды
     ul.mobile__menu
+    .menu__search
+      form(action="")
+        input(type="text", placeholder='Найти на сайте ...').form__input.form__input_547.animated.fadeInUp
+        input(type="submit",value='').form__input.button_icon.button_icon_reset
+        .form__input.button_icon.js__Search

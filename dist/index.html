@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="menu-container">
-          <div class="container-wrapper">
+          <div class="container-wrapper container-wrapper_flex">
             <div class="menu__sandwitch"><span class="sw-topper"></span><span class="sw-bottom"></span><span class="sw-footer"></span></div>
             <ul class="menu row between">
               <li class="menu__item"><a href="" class="menu__link">Магазины</a></li>
@@ -35,6 +35,13 @@
               <li class="menu__item"><a href="" class="menu__link">Бренды</a></li>
             </ul>
             <ul class="mobile__menu"></ul>
+            <div class="menu__search">
+              <form action="">
+                <input type="text" placeholder="Найти на сайте ..." class="form__input form__input_547 animated fadeInUp">
+                <input type="submit" value="" class="form__input button_icon button_icon_reset">
+                <div class="form__input button_icon js__Search"></div>
+              </form>
+            </div>
           </div>
         </div>
       </header>
@@ -71,7 +78,7 @@
             <div class="col__77 col__auto_reset">
               <div class="section-geo__top row between column-m"><span class="js__tab active">ТЦ Замок</span><span class="js__tab">Минск, пр. Победителей, 17</span><span class="js__tab">ТЦ Столица</span><a href="" class="section-geo__all-a arrow1">Все адреса (33)</a></div>
               <div class="section-geo__bottom">
-                <div class="js__cont active">
+                <div class="js__cont row between active">
                   <div class="row between column-m">
                     <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon"></div><span class="section-geo__a">Минск, ул. Чкалова, 35</span>
@@ -80,35 +87,35 @@
                       <div class="section-geo__adr-icon2"></div>
                       <div class="section-geo__adr-wrap"><span class="section-geo__adr-dat">+375 29 296-10-30</span><span class="section-geo__dat">+375 17 296-10-30 </span></div>
                     </div>
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon3"></div><span class="secion-slider__dat">Сегодня до 22.00</span>
                     </div>
                   </div>
                 </div>
                 <div class="js__cont row between">
                   <div class="row between column-m">
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon"></div><span class="section-geo">Минск, ул. Чкалова 33</span>
                     </div>
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon2"></div>
                       <div class="section-geo__adr-wrap"><span class="section-geo__adr-dat">+375 29 296-10-30</span><span class="section-geo__dat">+375 17 296-10-30 </span></div>
                     </div>
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon3"></div><span class="secion-slider__dat">Сегодня до 22.00</span>
                     </div>
                   </div>
                 </div>
                 <div class="js__cont row between">
                   <div class="row between column-m">
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon"></div><span class="section-geo">Минск, ул. Чкалова 35</span>
                     </div>
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon2"></div>
                       <div class="section-geo__adr-wrap"><span class="section-geo__adr-dat">+375 29 296-10-30</span><span class="section-geo__dat">+375 17 296-10-30 </span></div>
                     </div>
-                    <div class="section-geo-row row center">
+                    <div class="section-geo__row row center">
                       <div class="section-geo__adr-icon3"></div><span class="secion-slider__dat">Сегодня до 22.00</span>
                     </div>
                   </div>
@@ -172,87 +179,159 @@
       </section>
       <section class="section-info">
         <div class="container-wrapper shadow">
-          <div class="section-top__title">
-            <h2 class="section__h2">Информаци о магазине</h2>
-          </div>
-          <div class="section-top__content row column-m">
-            <div class="col__815">
-              <div class="text-wrap">
-                <p class="text">Сеть магазинов одежды Elema</p>
+          <div class="section-info__wrapper">
+            <div class="section-top__title">
+              <h2 class="section__h2">Информаци о магазине</h2>
+            </div>
+            <div class="section-top__content row column-m">
+              <div class="col__815">
+                <div class="text-wrap">
+                  <p class="text">Сеть магазинов одежды Elema</p>
+                </div>
+                <div class="text-wrap">
+                  <p class="text">Торговая марка “Elema” является одним из ведущих предприятий, выпускающих женскую одежду. Несмотря на то, что основной ассортимент товаров ориентирован на женщин, фабрика также выпускает мужские пальто и полупальто.</p>
+                </div>
+                <div class="text-wrap">
+                  <p class="text">Товары «Elema» традиционно отличаются разнообразием и ориентированы на разные группы покупателей.  Коллекция, как правило, включает классические модели, модели для молодежи и специальную мужскую линию.</p>
+                </div>
+                <div class="text-wrap">
+                  <p class="text">Сегодня товары марки «Elema» отвечают всем модным тенденциям. В каждом изделии вы можете найти необычный дизайн, утонченность кроя, интересный декор. Свежие решения в изготовлении каждой модели гарантируют покупателям бренда превосходный стиль и возможность создавать свой индивидуальный образ.</p>
+                </div>
+                <div class="text-wrap">
+                  <p class="text">За всю историю бренда “Elema” он по достоинству был оценен не только покупателями, но и профессионалами, огромное количество дипломов, грамот и благодарностей тому подтверждение!  </p>
+                </div>
               </div>
-              <div class="text-wrap">
-                <p class="text">Торговая марка “Elema” является одним из ведущих предприятий, выпускающих женскую одежду. Несмотря на то, что основной ассортимент товаров ориентирован на женщин, фабрика также выпускает мужские пальто и полупальто.</p>
-              </div>
-              <div class="text-wrap">
-                <p class="text">Товары «Elema» традиционно отличаются разнообразием и ориентированы на разные группы покупателей.  Коллекция, как правило, включает классические модели, модели для молодежи и специальную мужскую линию.</p>
-              </div>
-              <div class="text-wrap">
-                <p class="text">Сегодня товары марки «Elema» отвечают всем модным тенденциям. В каждом изделии вы можете найти необычный дизайн, утонченность кроя, интересный декор. Свежие решения в изготовлении каждой модели гарантируют покупателям бренда превосходный стиль и возможность создавать свой индивидуальный образ.</p>
-              </div>
-              <div class="text-wrap">
-                <p class="text">За всю историю бренда “Elema” он по достоинству был оценен не только покупателями, но и профессионалами, огромное количество дипломов, грамот и благодарностей тому подтверждение!  </p>
+              <div class="col__32">
+                <ul class="section-collect__ul">
+                  <li>Вид магазина: <span>Магазины одежды</span></li>
+                  <li>Специализация: <span>Верхняя одежда</span></li>
+                  <li>Бренды: <span>Elema</span></li>
+                  <li>Дисконтные карты: <span>есть</span></li>
+                  <li>Юридическая информация: <span>ОАО «ЭЛЕМА»  УНП: 100074549 220033, г. Минск, ул. Тростенецкая, 5 Свидетельство о государственной регистрации № 100074549 выдано 18.08.2000 Минским городским исполкомом</span></li>
+                </ul>
               </div>
             </div>
-            <div class="col__32">
-              <ul class="section-collect__ul">
-                <li>Вид магазина: <span>Магазины одежды</span></li>
-                <li>Специализация: <span>Верхняя одежда</span></li>
-                <li>Бренды: <span>Elema</span></li>
-                <li>Дисконтные карты: <span>есть</span></li>
-                <li>Юридическая информация: <span>ОАО «ЭЛЕМА»  УНП: 100074549 220033, г. Минск, ул. Тростенецкая, 5 Свидетельство о государственной регистрации № 100074549 выдано 18.08.2000 Минским городским исполкомом</span></li>
-              </ul>
-            </div>
           </div>
+          <div class="js__Toggle"><span class="toggle">Смотреть подробнее ...</span><span class="toggle">Скырть        </span></div>
         </div>
       </section>
       <section class="section-comments">
         <div class="container-wrapper shadow">
-          <div class="section-top__title"><a href="" class="section-top__link arrow">Отзывы о магазине Conver</a><span class="section-top__link">142</span></div>
-          <div class="section-top__contents row column-m">
-            <div class="col__815">
-              <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
-                <div class="text-wrap">
-                  <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3 размер 36-37? Какая цена? Спасибо</p>
+          <div class="section-info__wrapper">
+            <div class="section-top__title"><a href="" class="section-top__link arrow">Отзывы о магазине Conver</a><span class="section-top__link">142</span></div>
+            <div class="section-top__contents row column-m">
+              <div class="col__815">
+                <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
+                  <div class="text-wrap">
+                    <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3 размер 36-37? Какая цена? Спасибо</p>
+                  </div>
+                </div>
+                <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
+                  <div class="text-wrap">
+                    <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
+                  </div>
+                </div>
+                <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
+                  <div class="text-wrap">
+                    <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
+                  </div>
+                </div>
+                <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
+                  <div class="text-wrap">
+                    <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
+                  </div>
+                </div>
+                <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
+                  <div class="text-wrap">
+                    <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
+                  </div>
                 </div>
               </div>
-              <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
-                <div class="text-wrap">
-                  <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
-                </div>
-              </div>
-              <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
-                <div class="text-wrap">
-                  <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
-                </div>
-              </div>
-              <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
-                <div class="text-wrap">
-                  <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
-                </div>
-              </div>
-              <div class="section-comments__rev"><span>Светлана </span><span>10.11.2015</span>
-                <div class="text-wrap">
-                  <p class="text">Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3</p>
-                </div>
+              <div class="col__32">
+                <form action="">
+                  <label><span class="label__span">Оставить отзыв о магазине Conver</span>
+                    <input type="text" placeholder="Имя">
+                  </label>
+                  <textarea placeholder="Сообщение" class="label__text"></textarea>
+                  <label><span class="label__span">Укажите почту для получения ответа</span>
+                    <input type="text" placeholder="Имя">
+                  </label>
+                  <input type="submit" value="Отправить" class="button button_red">
+                </form>
               </div>
             </div>
-            <div class="col__32">
-              <form action="">
-                <label><span class="label__span">Оставить отзыв о магазине Conver</span>
-                  <input type="text" placeholder="Имя">
-                </label>
-                <textarea placeholder="Сообщение" class="label__text"></textarea>
-                <label><span class="label__span">Укажите почту для получения ответа</span>
-                  <input type="text" placeholder="Имя">
-                </label>
-                <input type="submit" value="Отправить" class="button button_red">
-              </form>
+          </div>
+          <div class="js__Toggle"><span class="toggle">Смотреть подробнее ...  </span><span class="toggle">Скрыть</span></div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="container-wrapper">
+            <div class="row footer__top_padding">
+              <div class="footer__col footer__col_31">
+                <div class="footer__row row"><a href="" class="header__logo not"></a>
+                  <div class="section-geo__geo row between section-geo__geo_reset"><a href="" class="section-geo__item"></a><a href="" class="section-geo__item"></a><a href="" class="section-geo__item"></a><a href="" class="section-geo__item"></a></div>
+                </div>
+                <div class="footer__row"> 
+                  <p class="footer__row_p">Цены на одежду, обувь и аксессуары в магазинах и бутиках Беларуси. Изучайте ассортимент ваших любимых магазинов, не выходя из дома.</p>
+                </div>
+                <div class="footer__row"> 
+                  <form action="">
+                    <input type="text" class="form__input">
+                    <input type="text" class="form__input">
+                    <input type="submit" value="Подписаться" class="button button_red">
+                  </form>
+                </div>
+              </div>
+              <div class="footer__col">
+                <h3 class="footer__h3">Магазины</h3>
+                <ul>
+                  <li class="footer__item"><a href="" class="footer__link">Все магазины</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Магазины одежды</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Магазины обуви</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Магазины аксессуаров</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Магазины для детей</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Спортивные магазины</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Бутики</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Магазины красоты</a></li>
+                </ul>
+              </div>
+              <div class="footer__col">
+                <h3 class="footer__h3">Общий каталог</h3>
+                <ul>
+                  <li class="footer__item"><a href="" class="footer__link">Женщинам</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Мужчинам</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Детям</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Спорт</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Красота</a></li>
+                </ul>
+              </div>
+              <div class="footer__col">
+                <h3 class="footer__h3">Информация</h3>
+                <ul>
+                  <li class="footer__item"><a href="" class="footer__link">Акции</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Коллекции</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">События</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Сертификаты</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Бренды</a></li>
+                  <li class="footer__item"><a href="" class="footer__link">Модный словарь</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <footer>
-        <div class="container-wrapper">       </div>
+        <div class="footer__bottom">
+          <div class="container-wrapper">
+            <div class="row between footer__bottom_padding column__reverse">
+              <div class="footer__bottom_col footer__col_31"><span class="footer__bottom_copy">© 2013–2016 ООО «ВИТРИНЫ БАЙ»</span>
+                <p class="footer__bottom_p">Все права защищены. Использование сайта означает согласие с условиями <a href="">пользовательского соглашения</a></p>
+              </div>
+              <div class="footer__bottom_col footer__col_69">
+                <div class="footer__bottom_menu row between"> <a href="" class="footer__bottom__link footer__bottom__link_active">О проекте</a><a href="" class="footer__bottom__link">Разместить рекламу</a><a href="" class="footer__bottom__link">Договор</a><a href="" class="footer__bottom__link">Добавить магазин</a><a href="" class="footer__bottom__link">Войти</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script src="js/slick.min.js"></script>

@@ -53,7 +53,7 @@ html
                 span.js__tab ТЦ Столица
                 a(href="").section-geo__all-a.arrow1 Все адреса (33)
               .section-geo__bottom
-                .js__cont.active
+                .js__cont.row.between.active
                   .row.between.column-m
                     .section-geo__row.row.center
                       .section-geo__adr-icon
@@ -63,33 +63,33 @@ html
                       .section-geo__adr-wrap
                         span.section-geo__adr-dat +375 29 296-10-30
                         span.section-geo__dat +375 17 296-10-30 
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon3
                       span.secion-slider__dat Сегодня до 22.00
                 .js__cont.row.between
                   .row.between.column-m
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon
                       span.section-geo Минск, ул. Чкалова 33
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon2
                       .section-geo__adr-wrap
                         span.section-geo__adr-dat +375 29 296-10-30
                         span.section-geo__dat +375 17 296-10-30 
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon3
                       span.secion-slider__dat Сегодня до 22.00
                 .js__cont.row.between
                   .row.between.column-m
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon
                       span.section-geo Минск, ул. Чкалова 35
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon2
                       .section-geo__adr-wrap
                         span.section-geo__adr-dat +375 29 296-10-30
                         span.section-geo__dat +375 17 296-10-30 
-                    .section-geo-row.row.center
+                    .section-geo__row.row.center
                       .section-geo__adr-icon3
                       span.secion-slider__dat Сегодня до 22.00
       section.section-rev
@@ -178,74 +178,160 @@ html
                 span Все фото
       section.section-info
         .container-wrapper.shadow
-          .section-top__title
-            h2.section__h2 Информаци о магазине
-          .section-top__content.row.column-m
-            .col__815
-              .text-wrap
-                p.text Сеть магазинов одежды Elema
-              .text-wrap
-                p.text Торговая марка “Elema” является одним из ведущих предприятий, выпускающих женскую одежду. Несмотря на то, что основной ассортимент товаров ориентирован на женщин, фабрика также выпускает мужские пальто и полупальто.
-              .text-wrap
-                p.text Товары «Elema» традиционно отличаются разнообразием и ориентированы на разные группы покупателей.  Коллекция, как правило, включает классические модели, модели для молодежи и специальную мужскую линию.
-              .text-wrap
-                p.text Сегодня товары марки «Elema» отвечают всем модным тенденциям. В каждом изделии вы можете найти необычный дизайн, утонченность кроя, интересный декор. Свежие решения в изготовлении каждой модели гарантируют покупателям бренда превосходный стиль и возможность создавать свой индивидуальный образ.
-              .text-wrap
-                p.text За всю историю бренда “Elema” он по достоинству был оценен не только покупателями, но и профессионалами, огромное количество дипломов, грамот и благодарностей тому подтверждение!  
-            .col__32
-              ul.section-collect__ul
-                li Вид магазина: 
-                  span Магазины одежды
-                li Специализация: 
-                  span Верхняя одежда
-                li Бренды: 
-                  span Elema
-                li Дисконтные карты: 
-                  span есть
-                li Юридическая информация: 
-                  span ОАО «ЭЛЕМА»  УНП: 100074549 220033, г. Минск, ул. Тростенецкая, 5 Свидетельство о государственной регистрации № 100074549 выдано 18.08.2000 Минским городским исполкомом
+          .section-info__wrapper
+            .section-top__title
+              h2.section__h2 Информаци о магазине
+            .section-top__content.row.column-m
+              .col__815
+                .text-wrap
+                  p.text Сеть магазинов одежды Elema
+                .text-wrap
+                  p.text Торговая марка “Elema” является одним из ведущих предприятий, выпускающих женскую одежду. Несмотря на то, что основной ассортимент товаров ориентирован на женщин, фабрика также выпускает мужские пальто и полупальто.
+                .text-wrap
+                  p.text Товары «Elema» традиционно отличаются разнообразием и ориентированы на разные группы покупателей.  Коллекция, как правило, включает классические модели, модели для молодежи и специальную мужскую линию.
+                .text-wrap
+                  p.text Сегодня товары марки «Elema» отвечают всем модным тенденциям. В каждом изделии вы можете найти необычный дизайн, утонченность кроя, интересный декор. Свежие решения в изготовлении каждой модели гарантируют покупателям бренда превосходный стиль и возможность создавать свой индивидуальный образ.
+                .text-wrap
+                  p.text За всю историю бренда “Elema” он по достоинству был оценен не только покупателями, но и профессионалами, огромное количество дипломов, грамот и благодарностей тому подтверждение!  
+              .col__32
+                ul.section-collect__ul
+                  li Вид магазина: 
+                    span Магазины одежды
+                  li Специализация: 
+                    span Верхняя одежда
+                  li Бренды: 
+                    span Elema
+                  li Дисконтные карты: 
+                    span есть
+                  li Юридическая информация: 
+                    span ОАО «ЭЛЕМА»  УНП: 100074549 220033, г. Минск, ул. Тростенецкая, 5 Свидетельство о государственной регистрации № 100074549 выдано 18.08.2000 Минским городским исполкомом
+          .js__Toggle
+            span.toggle Смотреть подробнее ...
+            span.toggle Скырть        
       section.section-comments
         .container-wrapper.shadow
-          .section-top__title
-            a(href="").section-top__link.arrow Отзывы о магазине Conver
-            span.section-top__link 142
-          .section-top__contents.row.column-m
-            .col__815
-              .section-comments__rev
-                span Светлана 
-                span 10.11.2015
-                .text-wrap
-                  p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3 размер 36-37? Какая цена? Спасибо
-              .section-comments__rev
-                span Светлана 
-                span 10.11.2015
-                .text-wrap
-                  p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
-              .section-comments__rev
-                span Светлана 
-                span 10.11.2015
-                .text-wrap
-                  p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
-              .section-comments__rev
-                span Светлана 
-                span 10.11.2015
-                .text-wrap
-                  p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
-              .section-comments__rev
-                span Светлана 
-                span 10.11.2015
-                .text-wrap
-                  p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
-            .col__32
-              form(action="")
-                label
-                  span.label__span Оставить отзыв о магазине Conver
-                  input(type="text", placeholder='Имя')
-                textarea.label__text(placeholder='Сообщение')
-                label
-                  span.label__span Укажите почту для получения ответа
-                  input(type="text", placeholder='Имя')
-                input(type="submit",value='Отправить').button.button_red
-      footer
-        .container-wrapper        
+          .section-info__wrapper
+            .section-top__title
+              a(href="").section-top__link.arrow Отзывы о магазине Conver
+              span.section-top__link 142
+            .section-top__contents.row.column-m
+              .col__815
+                .section-comments__rev
+                  span Светлана 
+                  span 10.11.2015
+                  .text-wrap
+                    p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3 размер 36-37? Какая цена? Спасибо
+                .section-comments__rev
+                  span Светлана 
+                  span 10.11.2015
+                  .text-wrap
+                    p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
+                .section-comments__rev
+                  span Светлана 
+                  span 10.11.2015
+                  .text-wrap
+                    p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
+                .section-comments__rev
+                  span Светлана 
+                  span 10.11.2015
+                  .text-wrap
+                    p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
+                .section-comments__rev
+                  span Светлана 
+                  span 10.11.2015
+                  .text-wrap
+                    p.text Здравствуйте! Подскажите, пожалуйста, есть ли в наличии туфли артикул 151В-2-3
+              .col__32
+                form(action="")
+                  label
+                    span.label__span Оставить отзыв о магазине Conver
+                    input(type="text", placeholder='Имя')
+                  textarea.label__text(placeholder='Сообщение')
+                  label
+                    span.label__span Укажите почту для получения ответа
+                    input(type="text", placeholder='Имя')
+                  input(type="submit",value='Отправить').button.button_red
+          .js__Toggle
+            span.toggle Смотреть подробнее ...  
+            span.toggle Скрыть
+      footer.footer
+        .footer__top
+          .container-wrapper
+            .row.footer__top_padding
+              .footer__col.footer__col_31
+                .footer__row.row
+                  a(href='').header__logo.not
+                  .section-geo__geo.row.between.section-geo__geo_reset
+                    a.section-geo__item(href="")
+                    a.section-geo__item(href="")
+                    a.section-geo__item(href="")
+                    a.section-geo__item(href="")
+                .footer__row 
+                  p.footer__row_p Цены на одежду, обувь и аксессуары в магазинах и бутиках Беларуси. Изучайте ассортимент ваших любимых магазинов, не выходя из дома.
+                .footer__row 
+                  form(action="")
+                    input(type="text").form__input
+                    input(type="text").form__input
+                    input(type="submit", value='Подписаться').button.button_red
+              .footer__col
+                h3.footer__h3 Магазины
+                ul
+                  li.footer__item
+                    a(href="").footer__link Все магазины
+                  li.footer__item
+                    a(href="").footer__link Магазины одежды
+                  li.footer__item
+                    a(href="").footer__link Магазины обуви
+                  li.footer__item
+                    a(href="").footer__link Магазины аксессуаров
+                  li.footer__item
+                    a(href="").footer__link Магазины для детей
+                  li.footer__item
+                    a(href="").footer__link Спортивные магазины
+                  li.footer__item
+                    a(href="").footer__link Бутики
+                  li.footer__item
+                    a(href="").footer__link Магазины красоты
+              .footer__col
+                h3.footer__h3 Общий каталог
+                ul
+                  li.footer__item
+                    a(href="").footer__link Женщинам
+                  li.footer__item
+                    a(href="").footer__link Мужчинам
+                  li.footer__item
+                    a(href="").footer__link Детям
+                  li.footer__item
+                    a(href="").footer__link Спорт
+                  li.footer__item
+                    a(href="").footer__link Красота
+              .footer__col
+                h3.footer__h3 Информация
+                ul
+                  li.footer__item
+                    a(href="").footer__link Акции
+                  li.footer__item
+                    a(href="").footer__link Коллекции
+                  li.footer__item
+                    a(href="").footer__link События
+                  li.footer__item
+                    a(href="").footer__link Сертификаты
+                  li.footer__item
+                    a(href="").footer__link Бренды
+                  li.footer__item
+                    a(href="").footer__link Модный словарь
+        .footer__bottom
+          .container-wrapper
+            .row.between.footer__bottom_padding.column__reverse
+              .footer__bottom_col.footer__col_31
+                span.footer__bottom_copy © 2013–2016 ООО «ВИТРИНЫ БАЙ»
+                p.footer__bottom_p Все права защищены. Использование сайта означает согласие с условиями 
+                  a(href="") пользовательского соглашения
+              .footer__bottom_col.footer__col_69
+                .footer__bottom_menu.row.between 
+                  a(href="").footer__bottom__link.footer__bottom__link_active О проекте
+                  a(href="").footer__bottom__link Разместить рекламу
+                  a(href="").footer__bottom__link Договор
+                  a(href="").footer__bottom__link Добавить магазин
+                  a(href="").footer__bottom__link Войти
       include scripts.jade

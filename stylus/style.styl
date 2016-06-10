@@ -11,6 +11,8 @@
 body 
   font-family Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
   background: grey
+.wrapper 
+  min-width 320px
 .container-wrapper
   width 1200px
   margin 0 auto
@@ -19,6 +21,7 @@ body
   background: white
   shadow()
   height 49px
+  position relative
 .shadow 
   shadow()
 .header
@@ -270,7 +273,7 @@ input
       color pink3
       line-height 30px
 .section-comments
-  margin-bottom 200px
+  margin-bottom 100px
   .col__815 
     background #fafafa
   .col__32 
@@ -337,6 +340,13 @@ input
   width 22%
 .mobile__menu
   display none
+.toggle
+  color pink
+  font-size 16px
+  padding 20px
+  cursor pointer
+.menu__search
+  display none
 // Sandwitch
 .menu__sandwitch
   display none
@@ -380,6 +390,71 @@ input
   transition-delay: 0.1s 
 .col__77 
   width 77%
+.js__Toggle
+  display none
+.footer
+  &__row_p 
+    font-size 14px
+    color pink3
+    padding 20px 0
+    line-height 22px
+  &__h3 
+    color pink3
+    margin-bottom 37px
+  &__item
+    line-height 25px
+  &__col:not(:nth-child(1))
+    margin-left 70px
+    width 30%
+  &__col_31
+    width 32%
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  &__col_69
+    width 68%
+  .button 
+    width auto
+    padding 0 30px
+  input 
+    margin-bottom 13px
+  .form__input
+    border 1px solid grey
+    width 80%
+  &__bottom 
+    background: white
+    &_padding
+      padding 30px 20px 20px 20px
+    &_copy 
+      color pink3
+      margin-bottom 10px
+    &_p
+      font-size 14px 
+      color pink3
+      line-height 22px
+      a 
+        text-decoration: underline
+    &__link
+      color dark
+      &_active 
+        color pink
+    &_menu 
+      padding 0 70px
+  &__top
+    background: #fafafa
+    .container-wrapper
+      background #fafafa
+    &_padding 
+      padding 30px 20px
+      color pink3
+.section-geo__geo_reset 
+  padding 0px 0 0 20px
+  a 
+    margin-right 10px
 // Медиаквери
 @media only screen and (max-width : 1200px)
   .container-wrapper
@@ -412,6 +487,18 @@ input
   .col__290_border
     width 100%
     border-top 1px solid grey
+@media only screen and (max-width : 1040px)
+  .footer__bottom_padding.column__reverse
+    flex-direction: column-reverse;
+  .footer__bottom_menu
+    padding 0px 0 20px 0
+  .footer__top_padding
+    display none
+  .footer__col_69
+  .footer__col_31
+    width 100%
+  .section-comments
+    margin 0 0 20px 0
 @media only screen and (max-width : 1000px)
   .col__290_bottom
     width 100%
@@ -455,13 +542,101 @@ input
     width 100%
   .col__32 
     border-top 1px solid grey
-  .section-top__info.column-m 
   .section-top__content.column-m
     flex-direction column
-  .section-top__info a
-    margin 10px 0 0 0
-    align-self: baseline;
+  // .section-top__info a
+  //   margin 10px 0 0 0
+  //   align-self: baseline;
 @media only screen and (max-width : 787px)
+  .container-wrapper_flex
+    display inline-flex
+  .header__search
+    display none
+  .menu__search 
+    width: 83%;
+    margin-left: auto;
+    position: relative;
+    top: -8px;
+    margin-right: 20px;
+    display inline-flex
+    justify-content flex-end
+    .form__input
+      color red
+    .form__input_547
+      border-bottom 1px solid red
+      width 80%
+      height 34px
+      padding-left 0px
+      display none
+    .button_icon
+      right auto
+      position relative
+    .button_icon_reset
+      display none
+    form 
+      width: 90%
+      justify-content: flex-end;
+      display: inline-flex;
+      overflow hidden
+      height 34px
+  .js__SearchActive
+    .form__input_547
+    .button_icon
+      display block
+    .js__Search
+      display none
+  .inline-flex
+    display block
+    font-size 0px
+  .section-slider__top
+  .section-slider__bottom
+    display inline-block
+    vertical-align: top
+    border-bottom none
+  .col__290_border
+    border-right none
+  .section-slider__bottom
+    height 191px;
+    width 45%
+    border-right none
+  .section-slider__likes
+    border-top 1px solid grey
+    width 100%
+  .js__Toggle
+    display block
+    box-shadow: 0 -19px 27px rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    border-top: 1px solid rgba(226, 226, 226, 0.85);
+  .toggle:nth-child(2)
+    display none
+  .section-info__wrapper.js__Height 
+    height auto
+  .js__More
+    .toggle:nth-child(2)
+      display block 
+    .toggle:nth-child(1)
+      display none
+  .section-info__wrapper
+    height 285px 
+    overflow-y hidden
+  .section-top__info 
+    a 
+      &:nth-child(2)
+      &:nth-child(4)
+        display none
+  .section-top__photo
+    a 
+      &:last-child
+      &:nth-child(3)
+        display none
+  .col__17
+    width 26%
+  .col__24 
+    width 37.5%
+  .col__22
+    width 34%
+    margin 0px
   .header.column-m
     flex-direction column
   .header__search
@@ -488,23 +663,38 @@ input
     &:hover 
       border 1px solid transparent
       border-bottom 1px solid grey
-@media only screen and (max-width : 787px)
   .section-geo__top.column-m
     flex-direction column  
     .js__tab 
       margin 0 0 10px 0 
-  .section-top__photo
-    display none
   .header__menu__lnik
     margin 0px
     padding 0 15px
-@media only screen and (max-width : 787px)
   .section-geo__bottom
-    .js__cont
-      .column-m
-        flex-direction column
-        .section-geo__row 
-          margin 10px 0
+    .column-m
+      flex-direction column
+      .section-geo__row 
+        margin 10px 0
+@media only screen and (max-width : 600px)
+  .footer__bottom_menu
+    flex-direction column
+  .footer__bottom__link
+    margin 0 0 5px 0
+@media only screen and (max-width : 560px)
+  .section-top__info.column-m 
+    flex-direction column
+  .section-geo__geo
+    margin-left 0px 
+    padding-top 20px
+  .section-geo__wrapper
+    display block
+  .section-slider__bottom
+    height auto 
+    border-top 1px solid grey
+    width 100%
+  .col__290_border
+    width 100%
+    text-align: center
 @media only screen and (max-width : 500px)
   .section-top__link
     font-size 16px

@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+  // Toggel content
+
+  $('.js__Toggle').click(function(event) {
+    $(this).siblings('.section-info__wrapper').toggleClass('js__Height')
+    $(this).toggleClass('js__More');
+  });
+
+  $('.js__Search').click(function(event) {
+    $('.menu__search').toggleClass('js__SearchActive');
+  });
+
   $(".js__tab").click(function() {
     $(".js__tab").removeClass("active").eq($(this).index()).addClass("active");
     $(".js__cont").hide().eq($(this).index()).fadeIn()
