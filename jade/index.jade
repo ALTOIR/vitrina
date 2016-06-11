@@ -47,12 +47,13 @@ html
                   a.section-geo__item(href="")
                   a.section-geo__item(href="")
             .col__77.col__auto_reset
-              .section-geo__top.row.between.column-m
+              include section-geo.jade
+              .section-geo__top.row.between.column-m.section-geo__top_desktop
                 span.js__tab.active ТЦ Замок
                 span.js__tab Минск, пр. Победителей, 17
                 span.js__tab ТЦ Столица
                 a(href="").section-geo__all-a.arrow1 Все адреса (33)
-              .section-geo__bottom
+              .section-geo__bottom.section-geo__top_desktop
                 .js__cont.row.between.active
                   .row.between.column-m
                     .section-geo__row.row.center

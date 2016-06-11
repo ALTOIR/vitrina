@@ -34,7 +34,8 @@ $(document).ready(function() {
   });
 
   // Navgoco acordion
-  // $(".faq__questions").navgoco({accordion: true});
+  $(".section-geo__ul").navgoco({accordion: true});
+  $(".menu_mobile").navgoco({accordion: true});
 
   // Slider 
   $('.section-slider__slides').slick({
@@ -46,7 +47,7 @@ $(document).ready(function() {
   // Sandwitch
   $('.menu__sandwitch').click(function(event) {
     $(this).toggleClass('active');
-    $('.wrapper').toggleClass('m-active');
+    $('.menu_mobile').toggleClass('active');
   });
 
 });

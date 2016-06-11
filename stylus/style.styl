@@ -60,6 +60,39 @@ input
   margin 0 0 20px 0
 .menu
   padding: 0 20px 0 22px;
+  &_mobile.active 
+    display block
+  &_mobile
+    display none
+    position absolute
+    background: white 
+    width 250px
+    shadow()
+    padding 20px
+    left 70px
+    z-index 1
+    top 0px
+    list-style none
+    ul 
+      margin-left 20px
+    a 
+      color dark
+      padding 8px 0
+    li 
+      position relative
+      margin-right 20px
+    a span 
+      background: url(../images/up.png) no-repeat center
+      width 10px 
+      height 10px
+      position absolute
+      right -20px
+      top 15px
+      transform rotateZ(180deg)
+      trs()
+    .open a span
+      transform rotateZ(0deg)
+      trs()
   &__item
     text-align: center
     flex-grow 1
@@ -133,12 +166,27 @@ input
   width 290px
 .section-geo
   margin-bottom 10px
+  &__ul
+    li.open a
+      border-bottom 1px solid red
+      color red 
+    a 
+      border-bottom 1px solid grey 
+      padding-bottom 7px
+      cursor pointer
+      color pink3
+      margin: 0 0 10px 0;
+      &:hover 
+        border-bottom 1px solid red
+        color red
   &__wrapper 
     border-right 1px solid grey
     margin 15px 0
     padding 0 20px
   &__top
     padding 15px 20px
+    &_mobile
+      display none
   &__item 
     width 35px
     height @width 
@@ -649,9 +697,18 @@ input
   .button_icon
     position absolute
     top 10px
+  .section-geo__top_desktop 
+    display none
+  .section-geo__top_mobile
+    display block
   .section-top__contents.column-m
   .section-rev__wrapper.column-m
-    flex-direction column   
+  .section-geo__ul .column-m
+    flex-direction column  
+  .section-geo__ul .column-m
+    margin 5px 0 10px 0
+  .section-geo__ul .section-geo__row 
+    margin: 5px 0; 
   .section-rev__wrapper
     display none
   .col__950
